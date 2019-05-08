@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- <meta name="viewport" id="viewport" content="width=2048,user-scalable=no,target-densitydpi=device-dpi"> -->
+<meta name="viewport" id="viewport" content="width=1600,user-scalable=no">
+<meta name="x5-orientation" content="landscape">
+<meta name="full-screen" content="yes">
+<meta name="browsermode" content="application">
+
+<title>飞利浦熨烫机</title>
+<link rel="stylesheet" href="css/style.css?v90">
+</head>
+<body>
+<div class="wrap">
+    
+    <div class="progress">
+        <div class="progress_num">0%</div>
+    </div>
+    
+    <div class="start">
+        <div class="start_btn"></div>
+    </div>
+    <div class="home page1 hide">
+        <img src="./img/1.png?v5" alt="" class="border hide">
+        <div class="home-btn1"></div>
+        <div class="home-btn2"></div>
+        
+    </div>
+    <div class="hight_wen hide">
+        <img src="./img/logo.png?v5" alt="" class="logo">
+        <div class="time">Time<span>01:00</span></div>
+       <img src="./img/black.png?v5" alt="" class="black">
+        <div class="page3" id="page3">
+            <img src="./img/page2_3.jpg?v5" alt="" class="page2_3">  
+            <div id="jacket_box">
+                <img src="./img/pants.png?v5" alt="" class="pants hide">
+                <img src="./img/4.png?v5" alt="" class="page3_tu2 ">
+                
+                <canvas id="canvas"></canvas>
+                <!-- <img src="./img/3.png?v2" alt="" class="page3_tu1 " id="page3_tu1"> -->
+                <img src="./img/burnout.png?v5" alt="" class="burnout hide">
+                <img src="./img/pants_burnout.png?v5" alt="" class="pants_burnout hide">
+                <img src="./img/kujiao.png?v5" alt="" class="kujiao hide">
+                <div class="kuzi_xianzhi hide" ></div>
+            </div>
+        </div>
+        <img src="./img/page3_f1.png?v5" alt="" class="page3_f1 hide" id="page3_f1">
+        <img src="./img/page3_f2.png?v5" alt="" class="page3_f2 hide">
+        <img src="./img/page3_f3.png?v5" alt="" class="page3_f3 hide">
+        <img src="./img/pants_f1.png?v5" alt="" class="pants_f1 hide">
+        <img src="./img/pants_f2.png?v5" alt="" class="pants_f2 hide">
+        <img src="./img/pants_f3.png?v5" alt="" class="pants_f3 hide">
+        <img src="./img/pants_f4.png?v5" alt="" class="pants_f4 hide">
+        <img src="./img/diwen_f1.png?v5" alt="" class="diwen_f1 hide">
+        <img src="./img/fly_f1.png?v5" alt="" class="fly_f1 hide">
+        <img src="./img/fly_f2.png?v5" alt="" class="fly_f2 hide">
+        <img src="./img/fly_f3.png?v5" alt="" class="fly_f3 hide">
+        <img src="./img/fly_f4.png?v5" alt="" class="fly_f4 hide">
+        <img src="./img/wendu.png" alt="" class="wendu hide">
+        <div class="fly_bg hide"></div>
+        <img src="./img/fly_btn.png?v5" alt="" class="fly_btn center hide">
+        <img src="./img/yuntang.gif" alt="" class="yuntang hide">
+        <div class="fly_btn_btn center hide"></div>
+        <img src="" alt="" class="iron1 hide" id="iron1">
+        <img src="./img/shangyi_tankuang.png?v5" alt="" class="shangyi_tankuang hide">
+        <div class="bg">
+            <div class="gao_box ">
+                <img src="./img/box_.png?v5" alt="" class="box_ center"  data-tu="123">
+                <img src="./img/box.png?v5" alt="" class="box center" data-tu="456">
+                <div class="page2-btn1 center page2-btn"></div>
+                <div class="page2-btn2 center page2-btn"></div>
+                <div class="page2-btn3 center page2-btn"></div>
+            </div>
+            <div class="pants_box center hide">
+                <img src="./img/box_.png?v5" alt="" class="pants_box_ center"  data-tu="123">
+                <div class="page2-btn4 page2-btn_ku"></div>
+                <div class="page2-btn5 page2-btn_ku"></div>
+                <div class="page2-btn6 page2-btn_ku"></div>
+            </div>
+        </div>
+    </div>
+    <img src="./img/shangyi_tankuang.png?v5" alt="" class="shangyi_tankuang hide">
+    <div class="shangyi_tankuang_btn hide"></div>
+    <img src="./img/kuzi_tankuang.png?v6" alt="" class="kuzi_tankuang hide">
+    <div class="kuzi_tankuang_btn hide"></div>
+    <div class="result hide">
+        <img src="./img/loading.gif" alt="" class="result_image center ">
+        <img src="./img/btn1.png?v5" alt="" class="btn1">
+        <div class="next"></div>
+        <div class="result_end hide">
+            <img src="" alt="" class="result_end2">
+            <img src="" alt="" class="result_sy">
+            <img src="" alt="" class="result_kuzi2">
+            <img src="" alt="" class="result_kuzi">
+            <div class="score">100</div>
+            <img src="./img/btn2.png?v5" alt="" class="btn2">
+            <div class="fanhui_end"></div>
+            <div class="more"></div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="js/jquery-1.js"></script>
+<!-- <script src="js/jquery.eraser.js"></script> -->
+<script src="js/iron.js?306"></script>
+<script src="js/html2canvas.min.js"></script>
+<!-- <script src="js/js.cookie.js"></script>
+<script src="js/track.js"></script> -->
+<!--微信分享-->
+<!--<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>-->
+<!--<script src="js/share.js"></script>-->
+<!--fastClick-->
+<script>
+    // var myURL = Track.parseURL(location.href);
+    // var origin = myURL.params.origin || 'direct';
+
+    // function track(tracking) {
+    //     _hmt && _hmt.push(
+    //         ['_trackEvent', origin, 'mobile', tracking]
+    //     )
+    // }
+
+    // $(document).on('click', '[data-name]', function (e) {
+    //     e.stopPropagation();
+    //     var text = $(this).data('name')
+    //     track(text)
+    // })
+    $(".home-btn1").on("touchstart",function(){
+        $('.border').css("left","118px").show()
+    })
+    $(".home-btn2").on("touchstart",function(){
+        $('.border').css("left","864px").show()
+    })
+    var arr_btn=["-147px","72px","286px"]
+    $(".page2-btn").on("touchstart",function(){
+        console.log($(this).index(".page2-btn"))
+        $(".box_").css("top",arr_btn[$(this).index(".page2-btn")])
+    })
+
+     var arr_btn=["-136px","72px","293px"]
+    $(".page2-btn_ku").on("touchstart",function(){
+        console.log($(this).index(".page2-btn_ku"))
+        $(".pants_box_").css("top",arr_btn[$(this).index(".page2-btn_ku")])
+    })
+
+    $(".black,.fanhui_end,.more").on("touchend",function(){
+       location.replace("http://www.philips-campaign.com/brandweek2018/iron")
+    })
+    $(".more").on("touchend",function(){
+       location.replace("http://www.philips-campaign.com/brandweek2018/iron")
+    })
+
+
+</script>
+</body>
+</html>
