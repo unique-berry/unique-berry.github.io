@@ -1,6 +1,5 @@
 # 简介
-
-ScrollReveal is a JavaScript library for easily animating elements as they enter/leave the viewport. It was designed to be robust and flexible, but hopefully you’ll be surprised below at how easy it is to pick up.
+自己开发的小插件，用于项目使用比较方便
 
 <br>
 
