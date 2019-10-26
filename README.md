@@ -1,13 +1,12 @@
 # 简介
-自己开发的小插件，用于项目使用比较方便
+自己在工作中封装的小插件，方便小型项目开发
 
 <br>
 
-# Installation
+# 使用
 
-## Browser
 
-A simple and fast way to get started is to include this script on your page:
+简单而快速的方法在页面中包含以下脚本：
 
 ```html
 <script src="https://unpkg.com/scrollreveal"></script>
