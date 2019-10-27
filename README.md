@@ -19,8 +19,11 @@
 # API
 
 event事件
+
 插件里面做了pc端和mobile的事件兼容
+
 equip.event.click 点击事件 mobile端对应touchstart pc端对应click
+
 equip.event.eventBegan 点击事件mobile端对应touchstart pc端对应mousedown
 
 ```
