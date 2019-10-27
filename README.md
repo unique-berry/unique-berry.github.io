@@ -18,7 +18,7 @@
 
 # API
 
-event事件
+### event事件
 
 插件里面做了pc端和mobile的事件兼容
 例如
@@ -34,9 +34,7 @@ equip.event.eventMoved mobile端对应touchmove, pc端对应mousemove
 
 equip.event.eventEnded mobile端对应touchend, pc端对应mouseup
 
-```js
-ScrollReveal().reveal('.headline')
-```
+### dispatcher事件派发
 
 **🔎 See this demo live on [JSBin](http://jsbin.com/jufohaxonu/edit?html,output)**
 
