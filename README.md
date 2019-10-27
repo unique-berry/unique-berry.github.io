@@ -26,11 +26,13 @@ event事件
 this.elem.addEventListener(equip.event.eventBegan, function(){}, false);
 ```
 
-equip.event.click 点击事件 mobile端对应touchstart pc端对应click
+equip.event.click  mobile端对应touchstart, pc端对应click
 
-equip.event.eventBegan 点击事件mobile端对应touchstart pc端对应mousedown
+equip.event.eventBegan mobile端对应touchstart, pc端对应mousedown
 
-```
+equip.event.eventMoved mobile端对应touchmove, pc端对应mousemove
+
+equip.event.eventEnded mobile端对应touchend, pc端对应mouseup
 
 ```js
 ScrollReveal().reveal('.headline')
