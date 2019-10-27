@@ -36,6 +36,8 @@ equip.event.eventEnded mobile端对应touchend, pc端对应mouseup
 
 ### dispatcher事件派发
 
+通过使用事件派发机制完成了较为复杂的解耦，代码之间耦合度降低，事件机制通过事件的侦听获取，因此不管发送还是接受，删除修改后都不会引起任何相关联的错误提供了一种将一个封闭模块中的数据传递给另一个封闭模块方法。
+
 **🔎 See this demo live on [JSBin](http://jsbin.com/jufohaxonu/edit?html,output)**
 
 <br>
