@@ -16,7 +16,7 @@
 
 
 
-# Usage
+# API
 
 Installation provides us with the constructor function [`ScrollReveal()`](https://scrollrevealjs.org/api/constructor.html). Calling this function returns the ScrollReveal instance, the “brain” behind the magic.
 
