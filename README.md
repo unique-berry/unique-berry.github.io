@@ -15,22 +15,6 @@
 这将创建全局变量 `equip`
 
 
-## Module
-
-```bash
-npm install scrollreveal
-```
-
-#### CommonJS
-
-```js
-const ScrollReveal = require('scrollreveal')
-```
-
-#### ES2015
-
-```js
-import ScrollReveal from 'scrollreveal'
 ```
 
 <br>
