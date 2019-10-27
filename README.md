@@ -38,11 +38,23 @@ equip.event.eventEnded mobile端对应touchend, pc端对应mouseup
 
 通过使用事件派发机制完成了较为复杂的解耦，代码之间耦合度降低，事件机制通过事件的侦听获取，因此不管发送还是接受，删除修改后都不会引起任何相关联的错误提供了一种将一个封闭模块中的数据传递给另一个封闭模块方法。
 
-**🔎 See this demo live on [JSBin](http://jsbin.com/jufohaxonu/edit?html,output)**
+使用事件派发需要先给目标对象继承dispatcher方法需要用到继承方法
 
-<br>
+```
+var demo = function(){}
+equip.utils.inherit(demo, equip.event.EventDispatcher.prototype)
+```
+然后new demo的实例就拥有事件派发能力
+```
+var demoo = new demo();
+demoo.on('xxxx',function(){
+	console.log("dispatcher")
+})
 
----
+demmo.emit('xxxx')
+
+打印出dispatcher
+```
 
 ### The full documentation can be found at [https://scrollrevealjs.org](https://scrollrevealjs.org)
 
