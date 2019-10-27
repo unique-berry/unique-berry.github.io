@@ -18,16 +18,11 @@
 
 # API
 
-Installation provides us with the constructor function [`ScrollReveal()`](https://scrollrevealjs.org/api/constructor.html). Calling this function returns the ScrollReveal instance, the “brain” behind the magic.
+event事件
+插件里面做了pc端和mobile的事件兼容
+equip.event.click 点击事件 mobile端对应touchstart pc端对应click
+equip.event.eventBegan 点击事件mobile端对应touchstart pc端对应mousedown
 
-> ScrollReveal employs the singleton pattern; no matter how many times the constructor is called, it will always return the same instance. This means we can call it anywhere, worry-free.
-
-There’s a lot we can do with this instance, but most of the time we’ll be using the [`reveal()`](https://scrollrevealjs.org/api/reveal.html) method to create animation. Fundamentally, this is how to use ScrollReveal:
-
-```html
-<h1 class="headline">
-    Widget Inc.
-</h1>
 ```
 
 ```js
