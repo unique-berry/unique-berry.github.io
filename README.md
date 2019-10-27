@@ -21,6 +21,10 @@
 event事件
 
 插件里面做了pc端和mobile的事件兼容
+例如
+```
+this.elem.addEventListener(equip.event.eventBegan, function(){}, false);
+```
 
 equip.event.click 点击事件 mobile端对应touchstart pc端对应click
 
