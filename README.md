@@ -14,7 +14,6 @@
 
 这将创建全局变量 `equip`
 
-> Be careful using this method in production. Without specifying a fixed version number, Unpkg may delay your page load while it resolves the latest version. Learn more at [unpkg.com](https://unpkg.com)
 
 ## Module
 
