@@ -9,7 +9,7 @@
 简单而快速的方法在页面中包含以下脚本：
 
 ```html
-<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./berry.js"></script>
 ```
 
 This will create the global variable `ScrollReveal`
