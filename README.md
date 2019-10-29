@@ -65,12 +65,15 @@ equip.utils.extend(des,src) src对象的值会合并并且覆盖到des对象上�
 
 ### canvas 
 new equip.canvas.Scratch(obj) 实现擦灰功能
+
+```
 obj = {
 	w:宽度,h:高度,
 	topImg:顶部图片,
 	bottomImg:底部图片,
 	complete:回调函数
 	}
+```
 
 
 
